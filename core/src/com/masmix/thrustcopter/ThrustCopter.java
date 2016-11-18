@@ -39,7 +39,7 @@ public class ThrustCopter extends ApplicationAdapter {
         background = new Texture("background.png");
         terrainAbove = new TextureRegion(new Texture("terrainBelow.png"));
         terrainBelow = new TextureRegion(terrainAbove);
-        plane = new Animation(0.045f, new TextureRegion(new Texture("plane1.png")),
+        plane = new Animation(0.070f, new TextureRegion(new Texture("plane1.png")),
                 new TextureRegion(new Texture("plane2.png")),
                 new TextureRegion(new Texture("plane3.png")));
         plane.setPlayMode(Animation.PlayMode.LOOP);
