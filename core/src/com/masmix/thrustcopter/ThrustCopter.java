@@ -82,6 +82,10 @@ public class ThrustCopter extends ApplicationAdapter {
         if (terrainOffset > 0) {
             terrainOffset -= terrainBelow.getRegionWidth();
         }
+
+        if (planePosition.y < -150) {
+            resetScene();
+        }
     }
 
     private void drawScene() {
